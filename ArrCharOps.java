@@ -192,21 +192,16 @@ public class ArrCharOps {
 
         if (char1 != char2) {
             
+           
             if (char1 > char2) {
                 return 1;
-            } else {
+            } else { 
                 return -1;
             }
         }
     }
 
     
-    if (len1 == len2) {
-        return 0;
-    } else if (len1 < len2) {
-        return -1;
-    } else {
-        return 1;
-    }
+    return len1 - len2;
 }
 }
