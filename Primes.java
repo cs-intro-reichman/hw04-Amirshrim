@@ -42,7 +42,8 @@ public class Primes {
         }
 
         
-        double totalNumbers = n - 1;
+        double totalNumbers = n; 
+        
         double percentage = (counter / totalNumbers) * 100;
         
         
